@@ -1,0 +1,11 @@
+c:\users\philip.adedoyin\documents\visual studio 2017\Projects\InvoicingApp\InvocingApp.Data\bin\Debug\InvocingApp.Data.dll.config
+c:\users\philip.adedoyin\documents\visual studio 2017\Projects\InvoicingApp\InvocingApp.Data\bin\Debug\InvocingApp.Data.dll
+c:\users\philip.adedoyin\documents\visual studio 2017\Projects\InvoicingApp\InvocingApp.Data\bin\Debug\InvocingApp.Data.pdb
+c:\users\philip.adedoyin\documents\visual studio 2017\Projects\InvoicingApp\InvocingApp.Data\obj\Debug\InvocingApp.Data.dll
+c:\users\philip.adedoyin\documents\visual studio 2017\Projects\InvoicingApp\InvocingApp.Data\obj\Debug\InvocingApp.Data.pdb
+C:\Users\philip.adedoyin\Documents\Visual Studio 2017\Projects\InvoicingApp\InvocingApp.Data\obj\Debug\InvocingApp.Data.csprojResolveAssemblyReference.cache
+C:\Users\philip.adedoyin\Documents\Visual Studio 2017\Projects\InvoicingApp\InvocingApp.Data\bin\Debug\Microsoft.Owin.dll
+C:\Users\philip.adedoyin\Documents\Visual Studio 2017\Projects\InvoicingApp\InvocingApp.Data\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\philip.adedoyin\Documents\Visual Studio 2017\Projects\InvoicingApp\InvocingApp.Data\bin\Debug\Owin.dll
+C:\Users\philip.adedoyin\Documents\Visual Studio 2017\Projects\InvoicingApp\InvocingApp.Data\bin\Debug\Microsoft.Owin.xml
+C:\Users\philip.adedoyin\Documents\Visual Studio 2017\Projects\InvoicingApp\InvocingApp.Data\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml

@@ -1,0 +1,28 @@
+C:\Users\philip.adedoyin\Documents\Visual Studio 2017\Projects\InvoicingApp\InvoiceApp.Persistence\obj\Debug\InvoiceApp.Persistence.csprojResolveAssemblyReference.cache
+C:\Users\philip.adedoyin\Documents\Visual Studio 2017\Projects\InvoicingApp\InvoiceApp.Persistence\bin\Debug\InvoiceApp.Persistence.dll.config
+C:\Users\philip.adedoyin\Documents\Visual Studio 2017\Projects\InvoicingApp\InvoiceApp.Persistence\bin\Debug\InvoiceApp.Persistence.dll
+C:\Users\philip.adedoyin\Documents\Visual Studio 2017\Projects\InvoicingApp\InvoiceApp.Persistence\bin\Debug\InvoiceApp.Persistence.pdb
+C:\Users\philip.adedoyin\Documents\Visual Studio 2017\Projects\InvoicingApp\InvoiceApp.Persistence\bin\Debug\EntityFramework.dll
+C:\Users\philip.adedoyin\Documents\Visual Studio 2017\Projects\InvoicingApp\InvoiceApp.Persistence\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\philip.adedoyin\Documents\Visual Studio 2017\Projects\InvoicingApp\InvoiceApp.Persistence\bin\Debug\InvocingApp.Data.dll
+C:\Users\philip.adedoyin\Documents\Visual Studio 2017\Projects\InvoicingApp\InvoiceApp.Persistence\bin\Debug\InvocingApp.Data.pdb
+C:\Users\philip.adedoyin\Documents\Visual Studio 2017\Projects\InvoicingApp\InvoiceApp.Persistence\bin\Debug\InvocingApp.Data.dll.config
+C:\Users\philip.adedoyin\Documents\Visual Studio 2017\Projects\InvoicingApp\InvoiceApp.Persistence\bin\Debug\EntityFramework.xml
+C:\Users\philip.adedoyin\Documents\Visual Studio 2017\Projects\InvoicingApp\InvoiceApp.Persistence\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\philip.adedoyin\Documents\Visual Studio 2017\Projects\InvoicingApp\InvoiceApp.Persistence\obj\Debug\InvoiceApp.Persistence.dll
+C:\Users\philip.adedoyin\Documents\Visual Studio 2017\Projects\InvoicingApp\InvoiceApp.Persistence\obj\Debug\InvoiceApp.Persistence.pdb
+C:\Users\PowerTrack\Desktop\My Project\InvoicingApp\InvoiceApp.Persistence\bin\Debug\InvoiceApp.Persistence.dll.config
+C:\Users\PowerTrack\Desktop\My Project\InvoicingApp\InvoiceApp.Persistence\bin\Debug\InvoiceApp.Persistence.dll
+C:\Users\PowerTrack\Desktop\My Project\InvoicingApp\InvoiceApp.Persistence\bin\Debug\InvoiceApp.Persistence.pdb
+C:\Users\PowerTrack\Desktop\My Project\InvoicingApp\InvoiceApp.Persistence\bin\Debug\EntityFramework.dll
+C:\Users\PowerTrack\Desktop\My Project\InvoicingApp\InvoiceApp.Persistence\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\PowerTrack\Desktop\My Project\InvoicingApp\InvoiceApp.Persistence\bin\Debug\InvocingApp.Data.dll
+C:\Users\PowerTrack\Desktop\My Project\InvoicingApp\InvoiceApp.Persistence\bin\Debug\InvocingApp.Data.pdb
+C:\Users\PowerTrack\Desktop\My Project\InvoicingApp\InvoiceApp.Persistence\bin\Debug\InvocingApp.Data.dll.config
+C:\Users\PowerTrack\Desktop\My Project\InvoicingApp\InvoiceApp.Persistence\bin\Debug\EntityFramework.xml
+C:\Users\PowerTrack\Desktop\My Project\InvoicingApp\InvoiceApp.Persistence\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\PowerTrack\Desktop\My Project\InvoicingApp\InvoiceApp.Persistence\obj\Debug\InvoiceApp.Persistence.csprojAssemblyReference.cache
+C:\Users\PowerTrack\Desktop\My Project\InvoicingApp\InvoiceApp.Persistence\obj\Debug\InvoiceApp.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\PowerTrack\Desktop\My Project\InvoicingApp\InvoiceApp.Persistence\obj\Debug\InvoiceApp.Persistence.csproj.CopyComplete
+C:\Users\PowerTrack\Desktop\My Project\InvoicingApp\InvoiceApp.Persistence\obj\Debug\InvoiceApp.Persistence.dll
+C:\Users\PowerTrack\Desktop\My Project\InvoicingApp\InvoiceApp.Persistence\obj\Debug\InvoiceApp.Persistence.pdb
