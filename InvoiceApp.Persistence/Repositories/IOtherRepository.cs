@@ -9,5 +9,6 @@ namespace InvoiceApp.Persistence.Repositories
     public interface IOtherRepository<TContext>
     {
         void UpdateById<TEntity>(long Id) where TEntity : class;
+        int Save();
     }
 }

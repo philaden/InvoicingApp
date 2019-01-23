@@ -30,8 +30,10 @@ namespace InvoiceApp.Persistence.Services
 
         public Company GetCompanyById(long Id)
         {
+            if (Id == 0 && Id < 0)
+                return null;
             var companyresult = _baseRepository.GetById<Company>(Id);
-            return companyresult;
+                return companyresult;
         }
 
         public void PostCompany(Company company)
@@ -44,6 +46,8 @@ namespace InvoiceApp.Persistence.Services
                 existingCompany.Customers = company.Customers;
                 existingCompany.Email = company.Email;
                 existingCompany.PhoneNumber = company.PhoneNumber;
+
+                existingCompany.Modified = DateTime.Now;
             }
                 _baseRepository.Create(company);
         }
@@ -62,11 +66,25 @@ namespace InvoiceApp.Persistence.Services
         {
             if (company != null)
                 _baseRepository.Update(company);
+            _otherRepository.Save();
         }
 
         public void UpdateCompanyById (long Id)
         {
-            _otherRepository.UpdateById<Company>(Id);            
+            if (Id == 0 || Id < 0)
+                return;
+            _otherRepository.UpdateById<Company>(Id);
+            _otherRepository.Save();
+        }
+
+        public void RemoveCompanyById (long Id)
+        {
+            if (Id == 0 || Id < 0)
+                return;
+            _baseRepository.Delete<Company>(Id);
+            var entity = _baseRepository.GetById<Company>(Id);
+            entity.IsDeleted = true;
+            _otherRepository.Save();
         }
     }
 }

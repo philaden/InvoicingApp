@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data.Entity;
+using System.Data.Entity.Validation;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -21,5 +22,18 @@ namespace InvoiceApp.Persistence.Repositories
             _context.Entry(entity).State = EntityState.Modified;
             _context.Set<TEntity>().Attach(entity);
         }
+
+        public virtual int Save()
+        {
+            try
+            {
+                return _context.SaveChanges();
+            }
+            catch (Exception e)
+            {
+                throw(e);
+            }
+        }
+
     }
 }
