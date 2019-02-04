@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace InvoiceApp.Persistence.Services
 {
-    public class CompanyService 
+    public class CompanyService : ICompanyService
     {
         private IBaseRepository<InvoiceAppDbContext> _baseRepository;
         private IOtherRepository<InvoiceAppDbContext> _otherRepository;
@@ -36,11 +36,11 @@ namespace InvoiceApp.Persistence.Services
                 return companyresult;
         }
 
-        public void PostCompany(Company company)
+        public object PostCompany(Company company)
         {
             var existingCompany = GetAllCompany().FirstOrDefault(x => x.Email == company.Email && x.PhoneNumber == company.PhoneNumber);
             if (existingCompany != null)
-            {
+                return string.Format($"{existingCompany.CompanyName} already exist but you may proceed to update the existing data");
                 existingCompany.Address = company.Address;
                 existingCompany.CompanyName = company.CompanyName;
                 existingCompany.Customers = company.Customers;
@@ -48,8 +48,9 @@ namespace InvoiceApp.Persistence.Services
                 existingCompany.PhoneNumber = company.PhoneNumber;
 
                 existingCompany.Modified = DateTime.Now;
-            }
+             if (existingCompany.Modified ==null)
                 _baseRepository.Create(company);
+            return string.Format($"{company.CompanyName} has been created");
         }
 
         public void BulkPostCompanies (IEnumerable<Company> companies)

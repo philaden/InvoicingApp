@@ -9,3 +9,28 @@ C:\Users\philip.adedoyin\Documents\Visual Studio 2017\Projects\InvoicingApp\Invo
 C:\Users\philip.adedoyin\Documents\Visual Studio 2017\Projects\InvoicingApp\InvocingApp.Data\obj\Debug\InvoicingApp.Data.csprojResolveAssemblyReference.cache
 C:\Users\philip.adedoyin\Documents\Visual Studio 2017\Projects\InvoicingApp\InvocingApp.Data\obj\Debug\InvocingApp.Data.dll
 C:\Users\philip.adedoyin\Documents\Visual Studio 2017\Projects\InvoicingApp\InvocingApp.Data\obj\Debug\InvocingApp.Data.pdb
+C:\Users\PowerTrack\Desktop\InvoiceSys\InvoicingApp\InvoicingApp\InvocingApp.Data\bin\Debug\InvocingApp.Data.dll.config
+C:\Users\PowerTrack\Desktop\InvoiceSys\InvoicingApp\InvoicingApp\InvocingApp.Data\bin\Debug\InvocingApp.Data.dll
+C:\Users\PowerTrack\Desktop\InvoiceSys\InvoicingApp\InvoicingApp\InvocingApp.Data\bin\Debug\InvocingApp.Data.pdb
+C:\Users\PowerTrack\Desktop\InvoiceSys\InvoicingApp\InvoicingApp\InvocingApp.Data\bin\Debug\Microsoft.Owin.dll
+C:\Users\PowerTrack\Desktop\InvoiceSys\InvoicingApp\InvoicingApp\InvocingApp.Data\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\PowerTrack\Desktop\InvoiceSys\InvoicingApp\InvoicingApp\InvocingApp.Data\bin\Debug\Owin.dll
+C:\Users\PowerTrack\Desktop\InvoiceSys\InvoicingApp\InvoicingApp\InvocingApp.Data\bin\Debug\Microsoft.Owin.xml
+C:\Users\PowerTrack\Desktop\InvoiceSys\InvoicingApp\InvoicingApp\InvocingApp.Data\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\PowerTrack\Desktop\InvoiceSys\InvoicingApp\InvoicingApp\InvocingApp.Data\obj\Debug\InvoicingApp.Data.csprojAssemblyReference.cache
+C:\Users\PowerTrack\Desktop\InvoiceSys\InvoicingApp\InvoicingApp\InvocingApp.Data\obj\Debug\InvoicingApp.Data.csproj.CoreCompileInputs.cache
+C:\Users\PowerTrack\Desktop\InvoiceSys\InvoicingApp\InvoicingApp\InvocingApp.Data\obj\Debug\InvoicingApp.Data.csproj.CopyComplete
+C:\Users\PowerTrack\Desktop\InvoiceSys\InvoicingApp\InvoicingApp\InvocingApp.Data\obj\Debug\InvocingApp.Data.dll
+C:\Users\PowerTrack\Desktop\InvoiceSys\InvoicingApp\InvoicingApp\InvocingApp.Data\obj\Debug\InvocingApp.Data.pdb
+C:\Users\PowerTrack\source\Repos\InvoiceSys\InvoicingApp\InvoicingApp\InvocingApp.Data\bin\Debug\InvocingApp.Data.dll.config
+C:\Users\PowerTrack\source\Repos\InvoiceSys\InvoicingApp\InvoicingApp\InvocingApp.Data\bin\Debug\InvocingApp.Data.dll
+C:\Users\PowerTrack\source\Repos\InvoiceSys\InvoicingApp\InvoicingApp\InvocingApp.Data\bin\Debug\InvocingApp.Data.pdb
+C:\Users\PowerTrack\source\Repos\InvoiceSys\InvoicingApp\InvoicingApp\InvocingApp.Data\bin\Debug\Microsoft.Owin.dll
+C:\Users\PowerTrack\source\Repos\InvoiceSys\InvoicingApp\InvoicingApp\InvocingApp.Data\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\PowerTrack\source\Repos\InvoiceSys\InvoicingApp\InvoicingApp\InvocingApp.Data\bin\Debug\Owin.dll
+C:\Users\PowerTrack\source\Repos\InvoiceSys\InvoicingApp\InvoicingApp\InvocingApp.Data\bin\Debug\Microsoft.Owin.xml
+C:\Users\PowerTrack\source\Repos\InvoiceSys\InvoicingApp\InvoicingApp\InvocingApp.Data\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\PowerTrack\source\Repos\InvoiceSys\InvoicingApp\InvoicingApp\InvocingApp.Data\obj\Debug\InvoicingApp.Data.csproj.CoreCompileInputs.cache
+C:\Users\PowerTrack\source\Repos\InvoiceSys\InvoicingApp\InvoicingApp\InvocingApp.Data\obj\Debug\InvoicingApp.Data.csproj.CopyComplete
+C:\Users\PowerTrack\source\Repos\InvoiceSys\InvoicingApp\InvoicingApp\InvocingApp.Data\obj\Debug\InvocingApp.Data.dll
+C:\Users\PowerTrack\source\Repos\InvoiceSys\InvoicingApp\InvoicingApp\InvocingApp.Data\obj\Debug\InvocingApp.Data.pdb

@@ -18,11 +18,12 @@ namespace InvoiceApp.Persistence.Repositories
             _context = context;
         }
 
-        public void Create<TEntity>(TEntity entity) where TEntity : class
+        public object Create<TEntity>(TEntity entity) where TEntity : class
         {
-            if (entity == null) return;
+            if (entity == null) return "";
             _context.Set<TEntity>().Add(entity);
             _context.SaveChanges();
+            return string.Format($"new {entity}has been created");
         }
 
         public void Create<TEntity>(IEnumerable<TEntity> entities) where TEntity : class

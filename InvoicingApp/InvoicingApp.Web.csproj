@@ -146,7 +146,9 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\CompanyController.cs" />
+    <Compile Include="Controllers\InvoiceController.cs" />
+    <Compile Include="Controllers\ProductController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -239,6 +241,9 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+    <Folder Include="Views\Customer\" />
+    <Folder Include="Views\Invoice\" />
+    <Folder Include="Views\Product\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
@@ -256,6 +261,10 @@
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\InvocingApp.Data\InvoicingApp.Data.csproj">
+      <Project>{0372328B-A1D4-4860-8366-4B5EC1000DB0}</Project>
+      <Name>InvoicingApp.Data</Name>
+    </ProjectReference>
     <ProjectReference Include="..\InvoiceApp.Persistence\InvoiceApp.Persistence.csproj">
       <Project>{F549473F-F90C-4FDB-B5C0-9268A57E55D5}</Project>
       <Name>InvoiceApp.Persistence</Name>

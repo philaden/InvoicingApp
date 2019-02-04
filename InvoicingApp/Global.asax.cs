@@ -1,7 +1,9 @@
 ﻿using Autofac;
 using Autofac.Integration.Mvc;
+using InvoiceApp.Persistence;
 using InvoiceApp.Persistence.Repositories;
 using InvoiceApp.Persistence.Repository;
+using InvoiceApp.Persistence.Services;
 using InvoicingApp.Controllers;
 using System;
 using System.Collections.Generic;
@@ -34,34 +36,37 @@ namespace InvoicingApp
             var builder = new ContainerBuilder();
             #endregion
 
+            builder.RegisterControllers(typeof(MvcApplication).Assembly);
+
+            //not managable
+
+            //builder.RegisterType<CompanyController>().InstancePerRequest();
+            //builder.RegisterType<ProductController>().InstancePerRequest();
+            //builder.RegisterType<InvoiceController>().InstancePerRequest();
+
+            builder.RegisterType<InvoiceAppDbContext>().InstancePerRequest();
+
             #region Setup a common pattern
-            // placed here before RegisterControllers as last one wins
-            builder.RegisterAssemblyTypes(Assembly.GetExecutingAssembly())
-                   .Where(t => t.Name.EndsWith("Repository"))
-                   .AsImplementedInterfaces();
+            builder.RegisterGeneric(typeof(BaseRepository<>)).As(typeof(IBaseRepository<>)).InstancePerLifetimeScope();
+            builder.RegisterGeneric(typeof(OtherRepository<>)).As(typeof(IOtherRepository<>)).InstancePerLifetimeScope() ;
 
-            builder.RegisterAssemblyTypes(Assembly.GetExecutingAssembly())
-                   .Where(t => t.Name.EndsWith("Service"))
-                   .AsImplementedInterfaces();
 
-            builder.RegisterAssemblyTypes(Assembly.GetExecutingAssembly())
-                  .Where(t => t.Name.EndsWith("Controller"));
+            builder.RegisterType<CompanyService>().As<ICompanyService>().InstancePerRequest();
+            builder.RegisterType<ProductService>().As<IProductSevice>().InstancePerRequest(); 
+            builder.RegisterType<InvoiceService>().As<IInvoiceService>().InstancePerRequest();
 
-            //#region Register all controllers for the assembly
-            //// Note that ASP.NET MVC requests controllers by their concrete types, 
-            //// so registering them As<IController>() is incorrect. 
-            //// Also, if you register controllers manually and choose to specify 
-            //// lifetimes, you must register them as InstancePerDependency() or 
-            //// InstancePerHttpRequest() - ASP.NET MVC will throw an exception if 
-            //// you try to reuse a controller instance for multiple requests. 
-            //builder.RegisterControllers(typeof(MvcApplication).Assembly)
-            //       .InstancePerHttpRequest();
+            //builder.RegisterAssemblyTypes(Assembly.GetExecutingAssembly())
+            //       .Where(t => t.Name.EndsWith("Repository"))
+            //       .AsImplementedInterfaces();
 
-            //#endregion
+            //builder.RegisterAssemblyTypes(Assembly.GetExecutingAssembly())
+            //       .Where(t => t.Name.EndsWith("Service"))
+            //       .AsImplementedInterfaces();
 
-            //#region Register modules
-            //builder.RegisterAssemblyModules(typeof(MvcApplication).Assembly);
-            //builder.RegisterModule<AutofacWebTypesModule>();
+            //builder.RegisterAssemblyTypes(Assembly.GetExecutingAssembly())
+            //      .Where(t => t.Name.EndsWith("Controller"));
+
+
             IContainer container = builder.Build();
             DependencyResolver.SetResolver(new AutofacDependencyResolver(container));
 

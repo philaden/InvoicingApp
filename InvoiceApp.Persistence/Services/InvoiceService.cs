@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace InvoiceApp.Persistence.Services
 {
-    public class InvoiceService
+    public class InvoiceService : IInvoiceService
     {
         private IBaseRepository<InvoiceAppDbContext> _baseRepository;
         private IOtherRepository<InvoiceAppDbContext> _otherRepository;

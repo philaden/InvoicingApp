@@ -52,11 +52,18 @@
     <Compile Include="Migrations\201901211807458_initialModel.Designer.cs">
       <DependentUpon>201901211807458_initialModel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201901281453309_secondinitialmodel.cs" />
+    <Compile Include="Migrations\201901281453309_secondinitialmodel.Designer.cs">
+      <DependentUpon>201901281453309_secondinitialmodel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\BaseRepository.cs" />
     <Compile Include="Repositories\IBaseRepository.cs" />
+    <Compile Include="Repositories\ICompanyService.cs" />
+    <Compile Include="Repositories\IInvoiceService.cs" />
     <Compile Include="Repositories\IOtherRepository.cs" />
+    <Compile Include="Repositories\IProductSevice.cs" />
     <Compile Include="Repositories\OtherRepository.cs" />
     <Compile Include="Services\CompanyService.cs" />
     <Compile Include="Services\InvoiceService.cs" />
@@ -75,6 +82,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201901211807458_initialModel.resx">
       <DependentUpon>201901211807458_initialModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201901281453309_secondinitialmodel.resx">
+      <DependentUpon>201901281453309_secondinitialmodel.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

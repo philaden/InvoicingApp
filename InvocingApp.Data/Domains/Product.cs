@@ -22,7 +22,7 @@ namespace InvocingApp.Data.Domains
         [Display(Name = "Category")]
         public ProductType ProductType { get; set; }
 
-        public string ImagePath { get; set; }
+        public string ExpiryDate { get; set; }
 
         public long Quantity { get; set; }
 

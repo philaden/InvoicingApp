@@ -17,7 +17,7 @@ namespace InvoiceApp.Persistence.Repository
             int? skip = null,
             int? take = null) where TEntity : class;
 
-        void Create<TEntity>(TEntity entity) where TEntity : class;
+        object Create<TEntity>(TEntity entity) where TEntity : class;
         void Create<TEntity>(IEnumerable<TEntity> entities) where TEntity : class;
         void Delete<TEntity>(long Id) where TEntity : class;
         void Delete<TEntity>(IEnumerable<TEntity> entities) where TEntity : class;

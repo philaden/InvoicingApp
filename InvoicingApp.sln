@@ -6,6 +6,7 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvoicingApp.Web", "InvoicingApp\InvoicingApp.Web.csproj", "{EE3F6EC1-69B1-465F-8144-A0D4EED4807D}"
 	ProjectSection(ProjectDependencies) = postProject
 		{F549473F-F90C-4FDB-B5C0-9268A57E55D5} = {F549473F-F90C-4FDB-B5C0-9268A57E55D5}
+		{0372328B-A1D4-4860-8366-4B5EC1000DB0} = {0372328B-A1D4-4860-8366-4B5EC1000DB0}
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvoicingApp.Data", "InvocingApp.Data\InvoicingApp.Data.csproj", "{0372328B-A1D4-4860-8366-4B5EC1000DB0}"
@@ -36,5 +37,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {95DB4F28-93D4-4ACE-9FB0-FC44483A68DC}
 	EndGlobalSection
 EndGlobal
